@@ -82,7 +82,7 @@ html {
 
 body {
   background: #252122;
-  background-image: url("images/bg.png");
+  background-image: url("images/bg02.png");
 }
 body.is-preload *, body.is-preload *:before, body.is-preload *:after {
   -moz-animation: none !important;
@@ -1608,7 +1608,7 @@ ul.social li a.fa-google-plus:hover {
 .icon.featured {
   position: relative;
   display: inline-block;
-  background-color: #F6742A;
+  background-color: #FA660A;
   width: 9em;
   padding: 1.75em 0 0.75em 0;
   border-top-left-radius: 5px;
@@ -1626,7 +1626,7 @@ ul.social li a.fa-google-plus:hover {
   position: absolute;
   bottom: -1.95em;
   left: 0;
-  border-top: solid 2em #F6742A;
+  border-top: solid 2em #FA660A;
   border-left: solid 4.5em transparent;
   border-right: solid 4.5em transparent;
 }
@@ -1705,7 +1705,7 @@ ul.social li a.fa-google-plus:hover {
   background: #f3f3f3;
 }
 #nav > ul > li.current > a {
-  background: #F6742A;
+  background: #FA660A;
   color: #fff !important;
   font-weight: 700;
 }
@@ -1777,7 +1777,7 @@ ul.social li a.fa-google-plus:hover {
   margin: 0 0 0.65em 0;
 }
 #banner header p {
-  color: #F6742A;
+  color: #FA660A;
   padding: 0;
   font-style: normal;
   margin: 0;
@@ -1836,7 +1836,7 @@ ul.social li a.fa-google-plus:hover {
 /* Main */
 #main {
   position: relative;
-  background: #f7f7f7 url("images/bg.png");
+  background: #f7f7f7 url("images/bg02.png");
   padding: 4em 0 4em 0;
 }
 #main:before {
@@ -1845,13 +1845,13 @@ ul.social li a.fa-google-plus:hover {
   top: 0;
   left: 0;
   width: 100%;
-  background: url("images/bg.png");
+  background: url("images/bg01.png");
   background-size: 100% 100%;
   z-index: 0;
   opacity: 0.1;
 }
 #main .major h2 {
-  background: #f7f7f7 url("images/bg.png");
+  background: #f7f7f7 url("images/bg02.png");
 }
 
 /* Footer */
@@ -1866,7 +1866,7 @@ ul.social li a.fa-google-plus:hover {
   top: 0;
   left: 0;
   width: 100%;
-  background: url("images/bg.png");
+  background: url("images/bg01.png");
   background-size: 100% 100%;
   z-index: 0;
   opacity: 0.5;

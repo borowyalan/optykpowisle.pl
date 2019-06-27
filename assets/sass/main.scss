@@ -784,7 +784,7 @@
 		&.featured {
 			position: relative;
 			display: inline-block;
-			background-color: #F6742A;
+			background-color: #FA660A;
 			width: 9em;
 			padding: 1.75em 0 0.75em 0;
 			border-top-left-radius: 5px;
@@ -803,7 +803,7 @@
 				position: absolute;
 				bottom: -1.95em;
 				left: 0;
-				border-top: solid 2em #F6742A;
+				border-top: solid 2em #FA660A;
 				border-left: solid 4.5em transparent;
 				border-right: solid 4.5em transparent;
 			}
@@ -903,7 +903,7 @@
 
 				&.current {
 					> a {
-						background: #F6742A;
+						background: #FA660A;
 						color: #fff !important;
 						font-weight: 700;
 					}
@@ -985,7 +985,7 @@
 			}
 
 			p {
-				color: #F6742A;
+				color: #FA660A;
 				padding: 0;
 				font-style: normal;
 				margin: 0;
