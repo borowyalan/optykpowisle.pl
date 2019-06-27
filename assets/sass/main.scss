@@ -1251,10 +1251,6 @@
 
 /* Medium */
 
-	#navPanel, #titleBar {
-		display: none;
-	}
-
 	@include breakpoint('<=medium') {
 
 		/* Basic */
@@ -1367,124 +1363,7 @@
 
 			#page-wrapper {
 				@include vendor('backface-visibility', 'hidden');
-				@include vendor('transition', 'transform #{_duration(navPanel)} ease');
 				padding-bottom: 1px;
-			}
-
-			#titleBar {
-				@include vendor('backface-visibility', 'hidden');
-				@include vendor('transition', 'transform #{_duration(navPanel)} ease');
-				display: block;
-				height: 44px;
-				left: 0;
-				position: fixed;
-				top: 0;
-				width: 100%;
-				z-index: _misc(z-index-base) + 1;
-				background: none;
-
-				.toggle {
-					@include icon(false, solid);
-					width: 80px;
-					height: 60px;
-
-					&:before {
-						content: '\f0c9';
-						display: block;
-						position: absolute;
-						left: 10px;
-						top: 10px;
-						width: 50px;
-						height: 40px;
-						line-height: 40px;
-						font-size: 18px;
-						color: #fff;
-						text-align: center;
-						background: rgba(150, 150, 150, 0.75);
-						border-radius: 5px;
-					}
-
-					&:active:before {
-						background-color: rgba(150, 150, 150, 1);
-					}
-				}
-			}
-
-			#navPanel {
-				@include vendor('backface-visibility', 'hidden');
-				@include vendor('transform', 'translateX(#{_size(navPanel) * -1})');
-				@include vendor('transition', ('transform #{_duration(navPanel)} ease'));
-				display: block;
-				height: 100%;
-				left: 0;
-				overflow-y: auto;
-				position: fixed;
-				top: 0;
-				width: _size(navPanel);
-				z-index: _misc(z-index-base) + 2;
-				color: #858484;
-				background-image: url('images/bg02.png');
-				box-shadow: inset -3px 0px 5px 0px rgba(0, 0, 0, 0.35);
-
-				.link {
-					display: block;
-					color: #888;
-					text-decoration: none;
-					height: 44px;
-					line-height: 44px;
-					border-top: solid 1px rgba(255, 255, 255, 0.05);
-					padding: 0 1em 0 1em;
-					font-style: italic;
-
-					&:first-child {
-						border-top: 0;
-					}
-				}
-
-				.indent-1 {
-					display: inline-block;
-					width: 1em;
-				}
-
-				.indent-2 {
-					display: inline-block;
-					width: 2em;
-				}
-
-				.indent-3 {
-					display: inline-block;
-					width: 3em;
-				}
-
-				.indent-4 {
-					display: inline-block;
-					width: 4em;
-				}
-
-				.indent-5 {
-					display: inline-block;
-					width: 5em;
-				}
-
-				.depth-0 {
-					color: #fff;
-				}
-			}
-
-			body {
-				&.navPanel-visible {
-					#page-wrapper {
-						@include vendor('transform', 'translateX(#{_size(navPanel)})');
-					}
-
-					#titleBar {
-						@include vendor('transform', 'translateX(#{_size(navPanel)})');
-					}
-
-					#navPanel {
-						@include vendor('transform', 'translateX(0)');
-					}
-				}
 			}
 
 			/* Contact */
