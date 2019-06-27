@@ -11,12 +11,17 @@ This repo is a site redesing for an old [optykpowisle.pl](http://optykpowisle.pl
 
 1. Clone the repo
 ````shell
+git clone https://github.com/borowyalan/optykpowisle.pl.git optykpowisle.pl
+````
+2. Install dependencies
+````shell
 yarn install
 ````
-2. Run dev build
+3. Run dev build
 ````shell
 yarn run dev
 ````
+> Note: Default parcel port is http://localhost:1234.
 
 ## Technologies used
 
