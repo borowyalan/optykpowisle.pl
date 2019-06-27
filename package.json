@@ -12,6 +12,6 @@
   },
   "scripts": {
     "run": "parcel *.html",
-    "build": ""
+    "build": "parcel build *.html --public-url ./"
   }
 }
