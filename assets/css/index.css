@@ -82,7 +82,7 @@ html {
 
 body {
   background: #252122;
-  background-image: url("images/bg02.png");
+  background-image: url("images/bg.png");
 }
 body.is-preload *, body.is-preload *:before, body.is-preload *:after {
   -moz-animation: none !important;
@@ -1836,7 +1836,7 @@ ul.social li a.fa-google-plus:hover {
 /* Main */
 #main {
   position: relative;
-  background: #f7f7f7 url("images/bg02.png");
+  background: #f7f7f7 url("images/bg.png");
   padding: 4em 0 4em 0;
 }
 #main:before {
@@ -1845,13 +1845,13 @@ ul.social li a.fa-google-plus:hover {
   top: 0;
   left: 0;
   width: 100%;
-  background: url("images/bg01.png");
+  background: url("images/bg.png");
   background-size: 100% 100%;
   z-index: 0;
   opacity: 0.1;
 }
 #main .major h2 {
-  background: #f7f7f7 url("images/bg02.png");
+  background: #f7f7f7 url("images/bg.png");
 }
 
 /* Footer */
@@ -1866,7 +1866,7 @@ ul.social li a.fa-google-plus:hover {
   top: 0;
   left: 0;
   width: 100%;
-  background: url("images/bg01.png");
+  background: url("images/bg.png");
   background-size: 100% 100%;
   z-index: 0;
   opacity: 0.5;
