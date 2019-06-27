@@ -5,7 +5,7 @@
 
 ## What is it? 
 
-This repo is a site redesing for an old optykpowisle.pl. 
+This repo is a site redesing for an old [optykpowisle.pl](http://optykpowisle.pl/). 
 
 ## Getting started
 
