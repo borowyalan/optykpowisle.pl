@@ -1,0 +1,17 @@
+{
+  "name": "optykpowisle.pl",
+  "version": "1.0.0",
+  "description": "A site redesign for www.optykpowisle.pl",
+  "main": "index.html",
+  "repository": "https://github.com/borowyalan/optykpowisle.pl.git",
+  "author": "Alan Borowy <borowyalan@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "sass": "^1.22.1"
+  },
+  "scripts": {
+    "run": "parcel *.html",
+    "build": ""
+  }
+}
