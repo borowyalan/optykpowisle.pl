@@ -1653,7 +1653,7 @@ ul.social li a.fa-google-plus:hover {
   position: relative;
   background: #ffffff;
   border-bottom: solid 1px #ccc;
-  padding: 5em 0 4em 0;
+  padding: 4em 0 4em 0;
   text-align: center;
 }
 #header h1 {
@@ -1933,7 +1933,7 @@ ul.social li a.fa-google-plus:hover {
 
   /* Header */
   #header {
-    padding: 4em 0 3em 0;
+    padding: 3em 0 3em 0;
   }
 
   /* Banner */
@@ -2001,7 +2001,7 @@ ul.social li a.fa-google-plus:hover {
 
   /* Header */
   #header {
-    padding: 3.5em 0 3em 0;
+    padding: 2.5em 0 3em 0;
   }
   #header h1 {
     width: 100%;
