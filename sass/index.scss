@@ -579,16 +579,24 @@
 	}
 
 /* Contact */
-
-	h3 {
-		font-size: 1.75em;
-		padding-bottom: 0.5em;
+	#main {
+		.blog-post {
+			h3 {
+				font-size: 1.75em;
+				padding-bottom: 0.5em;
+			}
+		
+			a {
+				font-size: 1.5em;
+				color: #FA660A;
+			}
+		
+			p {
+				font-size: 1.5em;
+			}
+		}
 	}
-
-	a {
-		font-size: 1.5em;
-		color: #FA660A;
-	}
+	
 
 	ul.contact {
 		display: flex;
@@ -925,6 +933,7 @@
 
 					&.fontawesome-icon {
 						background-color: inherit;
+						padding: 0;
 					}
 				}
 
