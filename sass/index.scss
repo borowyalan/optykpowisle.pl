@@ -338,8 +338,26 @@
 		}
 	}
 
+	.avatar {
+		padding-bottom: 3em;
+		width: 100%;
+	}
+
 	header {
 		margin: 0 0 1.5em 0;
+
+		a {
+			color: inherit;
+		}
+		a:hover {
+			padding: 0.2em;
+			color: blue;
+			text-decoration: none;
+		}
+
+		a:active {
+			background-color: transparent;
+		}
 
 		> p {
 			display: block;
@@ -871,6 +889,7 @@
 		> ul {
 			display: flex;
 			justify-content: space-evenly;
+			align-items: center;
 
 			margin: 0;
 
@@ -893,12 +912,23 @@
 					padding: 0.6em 1.2em 0.6em 1.2em;
 					@include vendor('transition', 'background-color .25s ease-in-out');
 					outline: 0;
+
+					&.fontawesome-icon {
+						background-color: inherit;
+					}
 				}
+
+				
 
 				&:hover, &.active {
 					> a {
 						background: #f3f3f3;
+
+						&.fontawesome-icon {
+							background-color: inherit;
+						}
 					}
+					
 				}
 
 				&.current {
@@ -1299,6 +1329,7 @@
 				// display: none;
 				width: 100%;
 				
+
 				ul {
 					width: 100%;
 					padding: 2em 0 0 0 ;
@@ -1545,7 +1576,7 @@
 					color: #252122;
 					font-weight: 900;
 					font-size: 2em;
-					letter-spacing: -0.035em;
+					letter-spacing:-0.035em;
 				}
 
 				.logo {
@@ -1595,6 +1626,10 @@
 
 			#main {
 				padding: 20px 0;
+			}
+
+			.avatar {
+				padding-bottom: 0.5em;
 			}
 
 		/* Footer */
